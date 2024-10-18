@@ -27,9 +27,15 @@ img {
   max-width: 100%;
 }
 
+/* Changes nav dots */
+nav {
+  color: darkgoldenrod;
+}
+
 /* Removes the underline from the navigation links. */
 nav a {
   text-decoration: none;
+  color: darkorchid;
 }
 
 /* Underlines the navigation links on hover. */
@@ -40,4 +46,67 @@ nav a:hover {
 /* Underlines the active navigation link. */
 [aria-current="page"] {
   text-decoration: underline;
+}
+
+/* changes branding colors */
+h1 {
+  color: darkorchid;
+}
+
+/* nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+} */
+
+/* .menu {
+  display: flex;
+  justify-content: space-evenly;
+  border: darkorchid solid 1px;
+} */
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  border: darkorchid solid 1px;
+}
+
+.heroImage {
+  opacity: 50%;
+}
+
+/* Changes the font in h2 */
+#tagLineFont {
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkorchid;
+}
+
+/* Changes the font in p*/
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkorchid;
+}
+
+/* .container {
+  height: 720%;
+  width: 120%;
+} */
+
+h3 {
+  color: darkblue;
+}
+
+.blogPost {
+  flex-direction: row;
+  border: darkorchid solid 2px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem
+
 }
